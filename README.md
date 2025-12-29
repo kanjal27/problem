@@ -12,7 +12,6 @@ A Node.js application that responds with a simple success message.
 2. Obtain the **base URL** of the deployed application.
 3. Insert this URL into the `AWS_LINK` constant in the `solution.js` file in the format:
 
-```javascript
 AWS_LINK="http://your-aws-public-ip:port"
 
 Verify the deployment by sending a GET request to the deployed URL. The expected response is:
